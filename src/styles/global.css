@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+    /* Brand Colors */
+    --color-primary: #000000; /* 🍅 Tomato red (use your brand color here) */
+    --color-secondary: #fbc02d; /* 🧀 Golden yellow (optional highlight) */
+
+    /* Neutral Colors */
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-gray-800: #1a1a1a; /* dark gray for cards or sections */
+    --color-gray-300: #cccccc; /* subtle border or secondary text */
+
+    /* Text Colors */
+    --text-main: var(--color-white); /* for item names, prices */
+    --text-muted: var(--color-gray-300); /* for small labels or notes */
+    --text-heading: var(--color-primary); /* for "Price", "Category" headers */
+
+    /* Backgrounds */
+    --bg-main: var(--color-black); /* main page/menu background */
+    --bg-section: var(--color-gray-800); /* for sub-sections or cards */
+    --bg-highlight: var(--color-primary); /* optional banner/header highlight */
+
+    /* Borders */
+    --border-default: var(--color-gray-300);
+    --font-dancing: 'Dancing Script', cursive;
+}
+
+
+body {
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-fancy {
+    font-family: var(--font-dancing), serif;
+}
